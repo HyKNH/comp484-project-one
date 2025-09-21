@@ -5,6 +5,23 @@ body {
     font-family: 'NomNa';
 }
 
+small {
+    color: gray;
+}
+
+a {
+    color: gray;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    line-height: 1.5;
+}
+
 @font-face {
     font-family: 'NomNa';
     src: url('fonts/NomNaTong.woff') format('woff2'),
@@ -64,29 +81,12 @@ body {
     justify-content: space-between;
 }
 
-a {
-    color: gray;
-    font-weight: bold;
-}
-
-a:hover {
-    color: black;
-}
-
 .content-row {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
-}
-
-.content-row img {
-    max-width: 70%;
+    gap: 5px;
 }
 
 .content-row text {
-    flex: 1 5px;
-}
-
-small {
-    color: gray;
+    flex: 1;
 }
