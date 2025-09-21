@@ -11,3 +11,8 @@ body {
     font-weight: normal; 
     font-style: normal;
 }
+
+.vertical-column {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
