@@ -1,0 +1,13 @@
+body {
+    background: #0a0a0a;
+    color: #ededed;
+    font-family: 'NomNa';
+}
+
+@font-face {
+    font-family: 'NomNa';
+    src: url('fonts/NomNaTong.woff') format('woff2'),
+    url('fonts/NomNaTong.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal;
+}
