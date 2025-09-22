@@ -1,4 +1,4 @@
-body {
+body {  /* white bg black text */
     background: white;
     color: black;
     padding: 10px;
@@ -22,7 +22,7 @@ p {
     line-height: 1.5;
 }
 
-@font-face {
+@font-face { /* font for rendering Nôm characters */
     font-family: 'NomNa';
     src: url('fonts/NomNaTong.woff') format('woff2'),
     url('fonts/NomNaTong.woff') format('woff');
@@ -38,7 +38,7 @@ p {
     text-align: right;
 }
 
-.centered-div {
+.centered-div { /* flex container */
     display: flex;
     align-items: center; 
     justify-content: space-between;
@@ -57,7 +57,7 @@ p {
     color:gray;
 }
 
-.vertical-column {
+.vertical-column { /* vertical text for CC text */
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: x-large;
@@ -69,7 +69,7 @@ p {
     line-height: 2;
 }
 
-.rounded {
+.rounded { /* rounded box effect */
     border: 0.8px solid gray;
     border-radius: 10px 10px;
     box-shadow: 2px 2px 5px gray;
@@ -81,12 +81,8 @@ p {
     justify-content: space-between;
 }
 
-.content-row {
+.content-row { /* content flex container */
     display: flex;
     align-items: flex-start;
     gap: 5px;
-}
-
-.content-row text {
-    flex: 1;
 }
